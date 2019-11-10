@@ -1,0 +1,34 @@
+{
+  "name": "@webcodesk/install-webcodesk",
+  "version": "1.0.0",
+  "author": {
+    "name": "Alex Pustovalov",
+    "email": "apustovalov@gmail.com"
+  },
+  "keywords": [
+    "webcodesk"
+  ],
+  "description": "The Webcodesk server initialization tool",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webcodesk/install-webcodesk.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=8"
+  },
+  "bugs": {
+    "url": "https://github.com/webcodesk/install-webcodesk/issues"
+  },
+  "files": [
+    "index.js",
+    "installWebcodesk.js"
+  ],
+  "bin": "./index.js",
+  "dependencies": {
+    "chalk": "2.4.2",
+    "commander": "2.19.0",
+    "cross-spawn": "6.0.5",
+    "fs-extra": "7.0.1"
+  }
+}
